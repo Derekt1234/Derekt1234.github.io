@@ -1,0 +1,15 @@
+# **Enhancement One: Narrative**
+
+
+ The artifact I selected for this enhancement is my Travlr travel application; it was originally developed as a full-stack project in my CS-465 Full Stack Development course. For this enhancement, I focused on improving its backend testing and adding continuous integration. The project now includes Jest unit tests for the trip model and controller, a SuperTest integration test for the trips API, npm scripts for running tests, and a GitHub Actions workflow that runs API tests on pushes and pull requests. 
+ 
+ I included this artifact because it gives me a practical way to be able to demonstrate how I approach software quality. The tests show that I can check behavior at different levels. The model test verifies the data, the controller test isolates trip creation by mocking the database save, and the API test sends a request through the Express application and verifies the response. The workflow adds an automated check to the development process. 
+
+ I made progress toward all five outcomes. For Outcome 1, the GitHub Actions workflow supports collaboration by giving contributors a consistent test result on pushes and pull requests. Outcome 2 is supported by structured testing and clear comments throughout the additions. Adding Jest, Supertest, and automated CI applies established industry tools to improve software quality, which supports Outcome 4. As far as updates for the outcome-coverage plans, Outcome 3 and Outcome 5 did not work out as expected. Outcome 3 was only partially demonstrated because it mostly checks basic data fields, a mocked saved response, and whether the API returns an array. It doesn’t show much algorithmic design or evaluation. Outcome 5 ended up being the weakest due to the fact that reliability checks aren’t the same as security testing, and the current tests don’t probe authentication or authorization. Those outcomes will need to be planned in the other two enhancements. 
+ 
+ This enhancement process taught me that tests are useful not only for catching defects, but also for revealing assumptions about how application parts depend on each other. I had to distinguish a unit test from an integration test, isolate controller behavior with mocks, and make sure the API test handled the Express app correctly. I also encountered issues involving relative module paths and resources that remained open after the tests finished. Resolving the Jest open handle warning helped me understand that test cleanup matters. A test can pass the assertions and still leave a database connection or process running. I had to move the MongoDB startup out of app imports and into the server entry point.  Another problem I encountered was separating the Angular tests from the Jest tests. The Angular tests were basic creation tests for templates, but I did not want to delete the files. Overall, I learned to consider testability and cleanup as part of designing and maintaining the application. I also learned that it is much more difficult to add tools after development.
+
+
+ ### **Repository** - Link
+
+- [Enhancement One Repository](https://github.com/Derekt1234/cs465_fullstack)
