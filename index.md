@@ -5,14 +5,21 @@ title: Professional Self-Assessment
 
 # Professional Self‑Assessment
 
-  Completing the Computer Science program at Southern New Hampshire University and developing this ePortfolio has given me the opportunity to reflect on my growth as a developer and the strengths I bring into the field. Throughout the program, I learned how to approach problems with a structured engineering mindset, communicate clearly with both technical and non-technical stakeholders, and collaborate effectively in team environments. These experiences helped shape my professional goals and prepared me to enter the industry as a full-stack developer with a strong foundation in secure, reliable software design. 
-  Across my coursework, I gained hands-on experience with data structures, algorithms, software engineering principles, databases, and security. Courses such as CS-300 Data Structures and Algorithms strengthened my understanding of algorithmic thinking and performance trade-offs. While CS-465 Full Stack Development I and DAD-220 Database Systems/Environment helped me build and refine full-stack applications using Node.js, Express, MongoDB, and modern development practices. Security-focused courses taught me the importance of validation, sanitization, and defensive coding, which were skills I carried into my capstone enhancements. 
-    Developing this ePortfolio allowed me to bring all of those experiences together. Each artifact highlights a different part of my skill set: 
-    - Automated testing and CI workflows demonstrate my commitment to quality and maintainability.
-    - Pagination and sorting logic showcase my ability to apply algorithmic reasoning to real applications.
-    - Improving database validation reflects my focus on secure, predictable backend design.
-  Together, these enhancements show that I can analyze an existing system, identify where improvements can be made, and implement solutions that follow industry standards. 
-    This portfolio represents my abilities as a developer and serves as a strong introduction to the work I can produce. It shows not only what I have learned in the program, but also how I have grown professionally, technically, and personally. As I move into the field of computer science, I am confident in my ability to be able to contribute to a development team, communicate effectively, and continue building secure software.  
+Completing the Computer Science program at Southern New Hampshire University and developing this ePortfolio has given me the opportunity to reflect on my growth as a developer and the strengths I bring into the field. Throughout the program, I learned how to approach problems with a structured engineering mindset, communicate clearly with both technical and non-technical stakeholders, and collaborate effectively in team environments. These experiences helped shape my professional goals and prepared me to enter the industry as a full-stack developer with a strong foundation in secure, reliable software design. 
+  
+Across my coursework, I gained hands-on experience with data structures, algorithms, software engineering principles, databases, and security. Courses such as CS-300 Data Structures and Algorithms strengthened my understanding of algorithmic thinking and performance trade-offs. While CS-465 Full Stack Development I and DAD-220 Database Systems/Environment helped me build and refine full-stack applications using Node.js, Express, MongoDB, and modern development practices. Security-focused courses taught me the importance of validation, sanitization, and defensive coding, which were skills I carried into my capstone enhancements. 
+
+Developing this ePortfolio allowed me to bring all of those experiences together. Each artifact highlights a different part of my skill set: 
+
+  - Automated testing and CI workflows demonstrate my commitment to quality and maintainability.
+    
+  - Pagination and sorting logic showcase my ability to apply algorithmic reasoning to real applications.
+    
+  - Improving database validation reflects my focus on secure, predictable backend design.
+    
+Together, these enhancements show that I can analyze an existing system, identify where improvements can be made, and implement solutions that follow industry standards. 
+
+This portfolio represents my abilities as a developer and serves as a strong introduction to the work I can produce. It shows not only what I have learned in the program, but also how I have grown professionally, technically, and personally. As I move into the field of computer science, I am confident in my ability to be able to contribute to a development team, communicate effectively, and continue building secure software.  
 
 
 ### Collaboration and Communication
@@ -36,8 +43,6 @@ The three enhanced artifacts in this portfolio come from my Travlr MEAN stack ap
 - **Databases:** Validation + sanitization
 
 Together, these enhancements demonstrate full‑stack development skills, algorithmic reasoning, secure backend practices, and professional engineering workflows. They form a cohesive representation of my abilities as a future full‑stack engineer and reflect the program outcomes of the CS degree.
-
-This portfolio serves as both a capstone to my academic work and a professional showcase of the skills I will bring into the industry.
 
 ## Code Review Video
 The code review video presents the artifacts within my Travlr application and the enhancements to be performed.
