@@ -44,10 +44,31 @@ The three enhanced artifacts in this portfolio come from my Travlr MEAN stack ap
 
 Together, these enhancements demonstrate full‑stack development skills, algorithmic reasoning, secure backend practices, and professional engineering workflows. They form a cohesive representation of my abilities as a future full‑stack engineer and reflect the program outcomes of the CS degree.
 
-## Code Review Video
-The code review video presents the artifacts within my Travlr application and the enhancements to be performed.
+## Computer Science Program Outcomes
 
+Outcome 1: Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science
+
+Outcome 2: Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+
+Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
+
+Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)
+
+Outcome 5: Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+
+## Code Review Video
+
+My code review provides an overview of the original Travlr MEAN stack application, identifies structural, algorithmic, and security issues, and explains the planned enhancements for all three categories.
+
+### Link
 [Code Review - Travlr Application](https://youtu.be/KXu_o2-XuBM)
+
+### Summary 
+
+- Walkthrough of existing functionality
+- Identification of weaknesses in structure, logic, and security
+- Explanation of planned enhancements
+- Alignment with all five CS program outcomes
 
 ## Original Artifact
 
@@ -61,12 +82,31 @@ For this enhancement, I focused on improving its backend testing and adding cont
 
 I included this artifact because it gives me a practical way to be able to demonstrate how I approach software quality. The tests show that I can check behavior at different levels. The model test verifies the data, the controller test isolates trip creation by mocking the database save, and the API test sends a request through the Express application and verifies the response. The workflow adds an automated check to the development process. 
 
-I made progress toward all five outcomes. For Outcome 1, the GitHub Actions workflow supports collaboration by giving contributors a consistent test result on pushes and pull requests. Outcome 2 is supported by structured testing and clear comments throughout the additions. Adding Jest, Supertest, and automated CI applies established industry tools to improve software quality, which supports Outcome 4. As far as updates for the outcome-coverage plans, Outcome 3 and Outcome 5 did not work out as expected. Outcome 3 was only partially demonstrated because it mostly checks basic data fields, a mocked saved response, and whether the API returns an array. It doesn’t show much algorithmic design or evaluation. Outcome 5 ended up being the weakest due to the fact that reliability checks aren’t the same as security testing, and the current tests don’t probe authentication or authorization. Those outcomes will need to be planned in the other two enhancements. 
-
 This enhancement process taught me that tests are useful not only for catching defects, but also for revealing assumptions about how application parts depend on each other. I had to distinguish a unit test from an integration test, isolate controller behavior with mocks, and make sure the API test handled the Express app correctly. I also encountered issues involving relative module paths and resources that remained open after the tests finished. Resolving the Jest open handle warning helped me understand that test cleanup matters. A test can pass the assertions and still leave a database connection or process running. I had to move the MongoDB startup out of app imports and into the server entry point.  Another problem I encountered was separating the Angular tests from the Jest tests. The Angular tests were basic creation testing templates, but I did not want to delete the files. Overall, I learned to consider testability and cleanup as part of designing and maintaining the application. I also learned that it is much more difficult to add tools after development.
 
+### Skills Demonstrated 
 
-[Travlr Repository](https://github.com/Derekt1234/EnhancementOne)
+- Automated testing
+  
+- CI/CD pipeline creation
+  
+- Professional documentation
+  
+- Backend reliability improvements
+  
+
+### Course Outcomes Met
+
+- For Outcome 1, the GitHub Actions workflow supports collaboration by giving contributors a consistent test result on pushes and pull requests.
+
+- Outcome 2 is supported by structured testing and clear comments throughout the additions.
+
+- Outcome 4, adding Jest, Supertest, and automated CI, applies established industry tools to improve software quality.
+
+### Repo Link
+
+[Enhancement One: Travlr Repository](https://github.com/Derekt1234/EnhancementOne)
+
 
 ## Enhancement Two: Algorithms and Data Structures
 
@@ -80,9 +120,26 @@ I planned for this enhancement to address outcomes 2, 3, 4, and 5. After complet
 Enhancing the artifact taught me several important lessons about algorithmic design in real applications. First, I learned how important it is to think about scalability early. Even though the Travlr app originally had only a few trips, implementing pagination made me consider how the system would behave with dozens of records. Designing the skip/limit logic helped reinforce how a small algorithmic design can have large impacts on performance. Second, integrating pagination into both the admin Angular interface and the public travel page taught me how algorithmic improvements move through the entire system. Updating the API was only the first part. I also had to update the UI logic, handle empty states, and ensure that page boundaries were correct. This helped me better understand how frontend and backend systems can coordinate around algorithmic behavior. 
 The biggest challenge I faced was ensuring that pagination behaved properly under all conditions. I felt like every time I would update one part of the application, then 2 parts would go down. It became a game of cat and mouse, and testing these scenarios strengthened my debugging skills. 
 
+## Skills Demonstrated 
+- Algorithmic reasoning
+  
+- Data handling optimization
+  
+- Backend performance tuning
+  
+- Structured logic and documentation
 
+### Course Outcomes Met
 
-[Travlr Repository](https://github.com/Derekt1234/EnhancementTwo)
+- Outcome 2: Clear communication
+  
+- Outcome 3: Algorithmic principles
+  
+- Outcome 4: Efficient computing solutions
+  
+### Repo Link
+
+[Enhancement Two Repository](https://github.com/Derekt1234/EnhancementTwo)
 
 ## Enhancement Three: Databases
 
@@ -94,5 +151,24 @@ This enhancement did meet the outcomes I planned to address. It demonstrates my 
 
 Enhancing this artifact taught me how important it is to validate and sanitize user input at multiple layers of the application. I learned how schema constraints, middleware, and controller logic work together to create a secure and predictable backend. One challenge was ensuring that validation, sanitization, and schema rules did not conflict with each other, especially when handling user input text fields. Another challenge was updating the controllers to return consistent and meaningful error messages. I also had to update a few tests with the change in logic. Overall, the process helped strengthen my understanding of secure backend development and improve the reliability and security of the application. 
 
+## Skills Demonstrated
 
-[Travlr Repository](https://github.com/Derekt1234/EnhancementThree)
+- Secure backend development
+   
+- Data integrity enforcement
+  
+- Schema design
+  
+- Input sanitization  
+
+## Course Outcomes Met
+
+- Outcome 2: Clear communication through documentation
+  
+- Outcome 4: Use of well‑founded techniques
+
+- Outcome 5: Security mindset
+
+### Repo Link
+
+[Enhancement Three Repository](https://github.com/Derekt1234/EnhancementThree)
