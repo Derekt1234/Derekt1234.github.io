@@ -53,7 +53,7 @@ The code review video presents the artifacts within my Travlr application and th
 
 The artifact that I chose to perform all three enhancements with is my full-stack MEAN Travlr application from my CS-465 Full Stack Development I course.
 
-[Click here to view original artifact]()
+[Click here to view original artifact](https://github.com/Derekt1234/OriginalArtifact)
 
 ## Enhancement One: Software Engineering and Design
 
@@ -66,7 +66,7 @@ I made progress toward all five outcomes. For Outcome 1, the GitHub Actions work
 This enhancement process taught me that tests are useful not only for catching defects, but also for revealing assumptions about how application parts depend on each other. I had to distinguish a unit test from an integration test, isolate controller behavior with mocks, and make sure the API test handled the Express app correctly. I also encountered issues involving relative module paths and resources that remained open after the tests finished. Resolving the Jest open handle warning helped me understand that test cleanup matters. A test can pass the assertions and still leave a database connection or process running. I had to move the MongoDB startup out of app imports and into the server entry point.  Another problem I encountered was separating the Angular tests from the Jest tests. The Angular tests were basic creation testing templates, but I did not want to delete the files. Overall, I learned to consider testability and cleanup as part of designing and maintaining the application. I also learned that it is much more difficult to add tools after development.
 
 
-[Travlr Repository](https://github.com/Derekt1234/cs465_fullstack)
+[Travlr Repository](https://github.com/Derekt1234/EnhancementOne)
 
 ## Enhancement Two: Algorithms and Data Structures
 
@@ -82,7 +82,7 @@ The biggest challenge I faced was ensuring that pagination behaved properly unde
 
 
 
-[Travlr Repository](https://github.com/Derekt1234/cs465_fullstack)
+[Travlr Repository](https://github.com/Derekt1234/EnhancementTwo)
 
 ## Enhancement Three: Databases
 
@@ -95,4 +95,4 @@ This enhancement did meet the outcomes I planned to address. It demonstrates my 
 Enhancing this artifact taught me how important it is to validate and sanitize user input at multiple layers of the application. I learned how schema constraints, middleware, and controller logic work together to create a secure and predictable backend. One challenge was ensuring that validation, sanitization, and schema rules did not conflict with each other, especially when handling user input text fields. Another challenge was updating the controllers to return consistent and meaningful error messages. I also had to update a few tests with the change in logic. Overall, the process helped strengthen my understanding of secure backend development and improve the reliability and security of the application. 
 
 
-[Travlr Repository](https://github.com/Derekt1234/cs465_fullstack)
+[Travlr Repository](https://github.com/Derekt1234/EnhancementThree)
