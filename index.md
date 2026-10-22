@@ -3,7 +3,7 @@ layout: default
 title: Professional Self-Assessment
 ---
 
-## Professional Self‑Assessment
+# Professional Self‑Assessment
 
 Completing the Computer Science program at Southern New Hampshire University and developing this ePortfolio has given me the opportunity to reflect on my growth as a developer and the strengths I bring to the field. Throughout the program, I learned how to approach problems with a structured engineering mindset, communicate clearly with both technical and non-technical stakeholders, and collaborate effectively in team environments. These experiences helped shape my professional goals and prepared me to enter the industry as a full-stack developer with a strong foundation in secure, reliable software design. 
   
@@ -44,19 +44,19 @@ The three enhanced artifacts in this portfolio come from my Travlr MEAN stack ap
 
 Together, these enhancements demonstrate full‑stack development skills, algorithmic reasoning, secure backend practices, and professional engineering workflows. They form a cohesive representation of my abilities as a future full‑stack engineer and reflect the program outcomes of the CS degree.
 
-## Computer Science Program Outcomes
+# Computer Science Program Outcomes
 
-Outcome 1: Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science
+**Outcome 1:** Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science
 
-Outcome 2: Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+**Outcome 2:** Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
 
-Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
+**Outcome 3:** Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
 
-Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)
+**Outcome 4:** Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)
 
-Outcome 5: Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+**Outcome 5:** Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
-## Code Review Video
+# Code Review Video
 
 My code review provides an overview of the original Travlr MEAN stack application, identifies structural, algorithmic, and security issues, and explains the planned enhancements for all three categories.
 
@@ -66,17 +66,20 @@ My code review provides an overview of the original Travlr MEAN stack applicatio
 ### Summary 
 
 - Walkthrough of existing functionality
+  
 - Identification of weaknesses in structure, logic, and security
+  
 - Explanation of planned enhancements
+  
 - Alignment with all five CS program outcomes
 
-## Original Artifact
+# Original Artifact
 
 The artifact that I chose to perform all three enhancements with is my full-stack MEAN Travlr application from my CS-465 Full Stack Development I course.
 
 [Click here to view original artifact](https://github.com/Derekt1234/OriginalArtifact)
 
-## Enhancement One: Software Engineering and Design
+# Enhancement One: Software Engineering and Design
 
 For this enhancement, I focused on improving its backend testing and adding continuous integration. The project now includes Jest unit tests for the trip model and controller, a SuperTest integration test for the trips API, npm scripts for running tests, and a GitHub Actions workflow that runs the API tests on pushes and pull requests. 
 
@@ -108,7 +111,7 @@ This enhancement process taught me that tests are useful not only for catching d
 [Enhancement One: Travlr Repository](https://github.com/Derekt1234/EnhancementOne)
 
 
-## Enhancement Two: Algorithms and Data Structures
+# Enhancement Two: Algorithms and Data Structures
 
 For this enhancement, I added server-side pagination and sorting to the trip listing API and integrated the new logic into both the Angular admin interface and the public travel page. 
 
@@ -141,7 +144,7 @@ The biggest challenge I faced was ensuring that pagination behaved properly unde
 
 [Enhancement Two Repository](https://github.com/Derekt1234/EnhancementTwo)
 
-## Enhancement Three: Databases
+# Enhancement Three: Databases
 
 For this enhancement, I enhanced the database layer of my Travlr application artifact, specifically the API logic that handles creating and updating trip data. This includes the Mongoose schema, the POST and PUT controllers, and the new validation and sanitization middleware. The original artifact was created in my CS-465 Full Stack Development I course, but I have now used this artifact for all three enhancements and have improved security, reliability, and data integrity. 
 
